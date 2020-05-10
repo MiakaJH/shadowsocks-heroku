@@ -1,5 +1,5 @@
 {
-  "server": "https://ssmiaka1.herokuapp.com/",
+  "server": "https://ssmiaka3.herokuapp.com/",
   "local_address": "0.0.0.0",
   "scheme": "ws",
   "local_port": 1080,
