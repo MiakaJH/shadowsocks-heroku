@@ -71,7 +71,7 @@
     METHOD = null;
   }
 
-  HTTPPROXY = process.env.http_proxy;
+  HTTPPROXY = null;
 
   if (HTTPPROXY) {
     console.log("http proxy:", HTTPPROXY);

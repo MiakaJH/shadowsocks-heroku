@@ -43,7 +43,7 @@ timeout = Math.floor(config.timeout * 1000)
 if METHOD.toLowerCase() in ["", "null", "table"]
   METHOD = null
   
-HTTPPROXY = process.env.http_proxy   
+HTTPPROXY = null   
 
 if HTTPPROXY
   console.log "http proxy:", HTTPPROXY
